@@ -33,7 +33,7 @@ fn main() {
 
     let colors = Colors::new();
     clean_terminal();
-    println!("{}Adivinhe o número!{}", colors.blue, colors.end);
+    println!("{}Adivinhe o número entre 0 e 100!{}", colors.blue, colors.end);
 
     let secret_number = rand::thread_rng().gen_range(1..=100);
 
